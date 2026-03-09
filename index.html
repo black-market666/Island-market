@@ -1,156 +1,35 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HOME</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
-    }
-
-    body {
-      background: #000000;
-      color: #f8fafc;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #1e293b;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header h1 {
-      font-size: 1.5rem;
-      color: #38bdf8;
-    }
-
-    nav a {
-      margin-left: 1rem;
-      color: #f8fafc;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #38bdf8;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 4rem 2rem;
-    }
-
-    .hero h2 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .hero p {
-      font-size: 1.1rem;
-      color: #cbd5e1;
-    }
-
-    .section {
-      padding: 3rem 2rem;
-    }
-
-    .section h3 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      color: #38bdf8;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .project {
-      background: #1e293b;
-      padding: 1rem;
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
-
-    .project:hover {
-      transform: translateY(-5px);
-    }
-
-    .project h4 {
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      background: #FFFFFF;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #000000;
-    }
-
-    @media (max-width: 600px) {
-      .hero h2 {
-        font-size: 2rem;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <h1>Demon</h1>
+    <div class="logo">ISLANDS MARKET</div>
     <nav>
-      <a href="#about">Tentang</a>
-      <a href="produk.html">produk</a>
-      <a href="index.html">Kontak</a>
+      <a href="#">Home</a>
+      <a href="#">Produk</a>	
+      <a href="#">Kontak</a>
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <h2>Halo, MY NAME IS DEMON 👋</h2>
-    <p>Web Developer | Black-Market</p>
+    <h1>WELLCOME TO ISLANDS MARKET</h1>
+    <p>Selling blank overseas numbers</p>
+    <button>Shop Now</button>
   </section>
 
-  <section class="section" id="about">
-    <h3>Tentang Saya</h3>
-    <p>Saya adalah pengembang web sekaligus apalication yang fokus pada pembuatan website modern, cepat, dan mobile-friendly. Saya senang mengeksplorasi UI dan pengalaman pengguna.</p>
   </section>
 
-  <section class="section" id="projects">
-    <h3>Produk Saya</h3>
-    <div class="projects">
-      <div class="project">
-        <h4>Apk UN BANNED WA</h4>
-        <p>Untuk Membuka blokiran pihak Whatsapp ,seperti permanen/karena spam</p>
-      </div>
-      <div class="project">
-        <h4>Aplikasi BANNED WA</h4>
-        <p>Cocok untuk kalian yang suka laporkan No whatsapp seseorang tapi tidak tembus oleh pihak Whatsapp,.</p>
-      </div>
-      <div class="project">
-        <h4>Whatsapp Kebal V.5</h4>
-        <p>Cocok untuk kalian yang suka bisnis ,seperti kena spam, atau promosi yang bersifat melarang aturan pihak whatsapp.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="contact">
-    <h3>Kontak</h3>
-    <p>Email: blackmarket@gmail.com</p>
-    <p>WhatsApp: <a href="https://wa.me/62895806791903" style="color:#38bdf8;">Klik untuk chat</a></p>
-  </section>
-
+  <!-- Footer -->
   <footer>
-    &copy; 2021 Black-Market. Semua hak dilindungi.
+    <p>&copy; 2026 MyShop. All rights reserved.</p>
   </footer>
 
 </body>
-                                  </html>
+</html>
